@@ -12,7 +12,7 @@ dotenv.config();
 const app= express();
 
 const corsOption = { //To handle cors error
-    origin: ['http://localhost:3000'],
+    origin: ['https://movie-booking-project-frontend.onrender.com'],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
 }

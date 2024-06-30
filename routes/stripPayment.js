@@ -28,7 +28,7 @@ stripRouter.post('/create-checkout-session', async (req, res) => {
         },
       ],
       mode: 'payment',
-      success_url: `http://localhost:3000/`
+      success_url: `https://movie-booking-project-frontend.onrender.com/`
     });
   
     res.json({ id: session.id });
